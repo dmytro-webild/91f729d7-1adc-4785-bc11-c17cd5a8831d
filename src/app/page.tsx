@@ -100,7 +100,7 @@ export default function LandingPage() {
             icon: Layers,
           },
         ],
-        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png",
+        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png?_wi=1",
       }}
     />
   </div>
@@ -116,7 +116,7 @@ export default function LandingPage() {
           description: "Deep research-backed design.",
           bentoComponent: "reveal-icon",
           icon: Target,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png?_wi=2",
           imageAlt: "A futuristic software agency dashboard interface with abstract data nodes, deep dark blue and charco",
         },
         {
@@ -124,7 +124,7 @@ export default function LandingPage() {
           description: "High-performance code.",
           bentoComponent: "reveal-icon",
           icon: Code2,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png?_wi=1",
           imageAlt: "An abstract minimalist architectural photo, dark moody lighting with night blue highlights, professi",
         },
         {
@@ -132,7 +132,7 @@ export default function LandingPage() {
           description: "Visual identity systems.",
           bentoComponent: "reveal-icon",
           icon: Palette,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1",
           imageAlt: "professional business portrait man dark background",
         },
       ]}
@@ -183,7 +183,7 @@ export default function LandingPage() {
           title: "Projects",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png?_wi=2"
       mediaAnimation="blur-reveal"
       metricsAnimation="slide-up"
     />
@@ -200,7 +200,7 @@ export default function LandingPage() {
           name: "Sarah Miller",
           handle: "@sarah",
           testimonial: "Aery transformed our web presence completely.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=2",
         },
         {
           id: "2",
@@ -228,7 +228,7 @@ export default function LandingPage() {
           name: "Chloe Vance",
           handle: "@cvance",
           testimonial: "Professional, efficient, and highly creative.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=3",
         },
       ]}
       title="Trusted by Visionaries"
