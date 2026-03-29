@@ -32,14 +32,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "About",          id: "about"},
-        {
-          name: "Services",          id: "pricing"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Home", id: "hero" },
+        { name: "About", id: "about" },
+        { name: "Services", id: "pricing" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Aery"
     />
@@ -61,7 +57,8 @@ export default function LandingPage() {
           { icon: LayoutDashboard },
           { icon: Layers }
         ],
-        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png",        listItems: []
+        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png",        listItems: [],
+        buttons: []
       }}
     />
   </div>
