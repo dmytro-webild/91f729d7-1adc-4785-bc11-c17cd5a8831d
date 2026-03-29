@@ -126,11 +126,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah Miller", handle: "@sarah", testimonial: "Aery transformed our web presence completely.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
+        { id: "1", name: "Sarah Miller", handle: "@sarah", testimonial: "Aery transformed our web presence completely.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1" },
         { id: "2", name: "Mark Chen", handle: "@mark", testimonial: "Exceptional communication and design sense.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-woman-black-jacket-happy-short-haired-girl-dark-suit-widely-sincerely-smiles-isolated-background_197531-18508.jpg" },
         { id: "3", name: "Elena Ross", handle: "@elena", testimonial: "Their attention to detail is truly unparalleled.", imageSrc: "http://img.b2bpic.net/free-photo/redhead-bearded-male-dressed-suit-eyeglasses-smoking-tradition-pipe-dark-grey-background_613910-15584.jpg" },
         { id: "4", name: "David Wu", handle: "@dwu", testimonial: "The best design agency we've ever engaged with.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-handsome-confident-middle-aged-businessman-black-background_176420-5560.jpg" },
-        { id: "5", name: "Chloe Vance", handle: "@cvance", testimonial: "Professional, efficient, and highly creative.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" }
+        { id: "5", name: "Chloe Vance", handle: "@cvance", testimonial: "Professional, efficient, and highly creative.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=2" }
       ]}
       title="Trusted by Visionaries"
       description="Hear what our partners say about working with Aery."
