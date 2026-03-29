@@ -33,21 +33,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Services",
-          id: "pricing",
-        },
+          name: "Services",          id: "pricing"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Aery"
     />
@@ -55,52 +47,21 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardDashboard
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       title="Defining the Digital Frontier."
       description="Aery is a premier web design agency crafting bespoke digital experiences for forward-thinking brands."
       dashboard={{
-        title: "Aery Project Workspace",
-        stats: [
-          {
-            title: "Projects",
-            values: [
-              120,
-              150,
-              180,
-            ],
-            description: "Successfully Delivered",
-          },
-          {
-            title: "Clients",
-            values: [
-              80,
-              95,
-              110,
-            ],
-            description: "Global Partners",
-          },
-          {
-            title: "Impact",
-            values: [
-              98,
-              99,
-              100,
-            ],
-            description: "Client Satisfaction",
-          },
+        title: "Aery Project Workspace",        stats: [
+          { title: "Projects", values: [120, 150, 180], description: "Successfully Delivered" },
+          { title: "Clients", values: [80, 95, 110], description: "Global Partners" },
+          { title: "Impact", values: [98, 99, 100], description: "Client Satisfaction" }
         ],
         logoIcon: Zap,
         sidebarItems: [
-          {
-            icon: LayoutDashboard,
-          },
-          {
-            icon: Layers,
-          },
+          { icon: LayoutDashboard },
+          { icon: Layers }
         ],
-        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png?_wi=1",
+        imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png",        listItems: []
       }}
     />
   </div>
@@ -112,29 +73,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "UX Strategy",
-          description: "Deep research-backed design.",
-          bentoComponent: "reveal-icon",
-          icon: Target,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/a-futuristic-software-agency-dashboard-i-1774804170161-00450f37.png?_wi=2",
-          imageAlt: "A futuristic software agency dashboard interface with abstract data nodes, deep dark blue and charco",
+          title: "UX Strategy",          description: "Deep research-backed design.",          bentoComponent: "reveal-icon",          icon: Target
         },
         {
-          title: "Development",
-          description: "High-performance code.",
-          bentoComponent: "reveal-icon",
-          icon: Code2,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png?_wi=1",
-          imageAlt: "An abstract minimalist architectural photo, dark moody lighting with night blue highlights, professi",
+          title: "Development",          description: "High-performance code.",          bentoComponent: "reveal-icon",          icon: Code2
         },
         {
-          title: "Branding",
-          description: "Visual identity systems.",
-          bentoComponent: "reveal-icon",
-          icon: Palette,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1",
-          imageAlt: "professional business portrait man dark background",
-        },
+          title: "Branding",          description: "Visual identity systems.",          bentoComponent: "reveal-icon",          icon: Palette
+        }
       ]}
       title="Modern Capabilities"
       description="We blend artistic precision with deep engineering."
@@ -148,20 +94,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Web Design",
-          description: "Pixel perfect interfaces.",
-          icon: Monitor,
+          title: "Web Design",          description: "Pixel perfect interfaces.",          icon: Monitor
         },
         {
-          title: "Mobile Apps",
-          description: "Native mobile experiences.",
-          icon: Smartphone,
+          title: "Mobile Apps",          description: "Native mobile experiences.",          icon: Smartphone
         },
         {
-          title: "Cloud Ops",
-          description: "Scalable infra solutions.",
-          icon: Cloud,
-        },
+          title: "Cloud Ops",          description: "Scalable infra solutions.",          icon: Cloud
+        }
       ]}
       title="Elevating Brands"
       description="Full-cycle digital transformation solutions."
@@ -174,16 +114,10 @@ export default function LandingPage() {
       title="Born in 2025, Built for the Future"
       description="At Aery, we bridge the gap between creative vision and technical execution. Our team of designers and engineers work tirelessly to set new standards in digital craft."
       metrics={[
-        {
-          value: "5+",
-          title: "Years Combined",
-        },
-        {
-          value: "50+",
-          title: "Projects",
-        },
+        { value: "5+", title: "Years Combined" },
+        { value: "50+", title: "Projects" }
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bd1NdKllAX9yoN57kugrHXLZ5t/an-abstract-minimalist-architectural-pho-1774804169050-3ba7c161.png"
       mediaAnimation="blur-reveal"
       metricsAnimation="slide-up"
     />
@@ -195,41 +129,11 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "1",
-          name: "Sarah Miller",
-          handle: "@sarah",
-          testimonial: "Aery transformed our web presence completely.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=2",
-        },
-        {
-          id: "2",
-          name: "Mark Chen",
-          handle: "@mark",
-          testimonial: "Exceptional communication and design sense.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-woman-black-jacket-happy-short-haired-girl-dark-suit-widely-sincerely-smiles-isolated-background_197531-18508.jpg",
-        },
-        {
-          id: "3",
-          name: "Elena Ross",
-          handle: "@elena",
-          testimonial: "Their attention to detail is truly unparalleled.",
-          imageSrc: "http://img.b2bpic.net/free-photo/redhead-bearded-male-dressed-suit-eyeglasses-smoking-tradition-pipe-dark-grey-background_613910-15584.jpg",
-        },
-        {
-          id: "4",
-          name: "David Wu",
-          handle: "@dwu",
-          testimonial: "The best design agency we've ever engaged with.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-handsome-confident-middle-aged-businessman-black-background_176420-5560.jpg",
-        },
-        {
-          id: "5",
-          name: "Chloe Vance",
-          handle: "@cvance",
-          testimonial: "Professional, efficient, and highly creative.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=3",
-        },
+        { id: "1", name: "Sarah Miller", handle: "@sarah", testimonial: "Aery transformed our web presence completely.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
+        { id: "2", name: "Mark Chen", handle: "@mark", testimonial: "Exceptional communication and design sense.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-woman-black-jacket-happy-short-haired-girl-dark-suit-widely-sincerely-smiles-isolated-background_197531-18508.jpg" },
+        { id: "3", name: "Elena Ross", handle: "@elena", testimonial: "Their attention to detail is truly unparalleled.", imageSrc: "http://img.b2bpic.net/free-photo/redhead-bearded-male-dressed-suit-eyeglasses-smoking-tradition-pipe-dark-grey-background_613910-15584.jpg" },
+        { id: "4", name: "David Wu", handle: "@dwu", testimonial: "The best design agency we've ever engaged with.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-handsome-confident-middle-aged-businessman-black-background_176420-5560.jpg" },
+        { id: "5", name: "Chloe Vance", handle: "@cvance", testimonial: "Professional, efficient, and highly creative.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" }
       ]}
       title="Trusted by Visionaries"
       description="Hear what our partners say about working with Aery."
@@ -242,54 +146,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        {
-          id: "starter",
-          name: "Starter",
-          price: "$5k",
-          buttons: [
-            {
-              text: "Get Started",
-              href: "#",
-            },
-          ],
-          features: [
-            "Responsive Design",
-            "Basic SEO",
-            "Fast Hosting",
-          ],
-        },
-        {
-          id: "growth",
-          name: "Growth",
-          price: "$15k",
-          buttons: [
-            {
-              text: "Get Started",
-              href: "#",
-            },
-          ],
-          features: [
-            "UX Strategy",
-            "Advanced SEO",
-            "Content Mgmt",
-          ],
-        },
-        {
-          id: "enterprise",
-          name: "Enterprise",
-          price: "$50k+",
-          buttons: [
-            {
-              text: "Contact Us",
-              href: "#",
-            },
-          ],
-          features: [
-            "Custom Dev",
-            "Dedicated Support",
-            "Full Analytics",
-          ],
-        },
+        { id: "starter", name: "Starter", price: "$5k", buttons: [{ text: "Get Started", href: "#" }], features: ["Responsive Design", "Basic SEO", "Fast Hosting"] },
+        { id: "growth", name: "Growth", price: "$15k", buttons: [{ text: "Get Started", href: "#" }], features: ["UX Strategy", "Advanced SEO", "Content Mgmt"] },
+        { id: "enterprise", name: "Enterprise", price: "$50k+", buttons: [{ text: "Contact Us", href: "#" }], features: ["Custom Dev", "Dedicated Support", "Full Analytics"] }
       ]}
       title="Transparent Engagement"
       description="Tailored packages for every business stage."
@@ -301,21 +160,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",
-          title: "How long does a design take?",
-          content: "Depending on complexity, 4-8 weeks.",
-        },
-        {
-          id: "q2",
-          title: "What is the process?",
-          content: "Discovery, Design, Dev, Deploy.",
-        },
-        {
-          id: "q3",
-          title: "Do you provide support?",
-          content: "Yes, monthly maintenance plans.",
-        },
+        { id: "q1", title: "How long does a design take?", content: "Depending on complexity, 4-8 weeks." },
+        { id: "q2", title: "What is the process?", content: "Discovery, Design, Dev, Deploy." },
+        { id: "q3", title: "Do you provide support?", content: "Yes, monthly maintenance plans." }
       ]}
       title="Questions Answered"
       description="Common inquiries about our process."
@@ -326,18 +173,11 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCTA
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Get in touch"
       title="Ready to launch?"
       description="Let's build something extraordinary together."
-      buttons={[
-        {
-          text: "Start Project",
-          href: "#",
-        },
-      ]}
+      buttons={[{ text: "Start Project", href: "#" }]}
     />
   </div>
 
@@ -346,18 +186,11 @@ export default function LandingPage() {
       logoText="Aery"
       columns={[
         {
-          title: "Agency",
-          items: [
-            {
-              label: "Services",
-              href: "#pricing",
-            },
-            {
-              label: "Contact",
-              href: "#contact",
-            },
-          ],
-        },
+          title: "Agency",          items: [
+            { label: "Services", href: "#pricing" },
+            { label: "Contact", href: "#contact" }
+          ]
+        }
       ]}
     />
   </div>
